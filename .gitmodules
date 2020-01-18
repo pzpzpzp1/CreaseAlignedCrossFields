@@ -1,0 +1,3 @@
+[submodule "arff"]
+	path = arff
+	url = https://github.com/dpa1mer/arff
