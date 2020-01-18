@@ -10,8 +10,7 @@ This code includes algorithms for computing crease-aligned cross fields on trian
 - [gptoolbox](https://github.com/alecjacobson/gptoolbox)
 
 ## Installation
-First, remember to build and install the Mosek Fusion API as described
-[here](https://docs.mosek.com/9.0/cxxfusion/install-interface.html).
+`example` contains building instructions. In summary, you will need TBB, Mosek 9.0, gptoolbox, and Arff.
 
 ## Usage
 The main command for computing fields is `SolveLpCrossField`. See `example` for building and run instructions.
@@ -21,9 +20,8 @@ Some triangle meshes in `obj` format are included in the `Meshes` directory for 
 
 ### Computing Cross Fields
 The following command computes a cross field on the triangle mesh whose vertices are X and triangles are T.
-```crossField = SolveLpCrossField(X, T, '', 0, 2, True)
-```
+```crossField = SolveLpCrossField(X, T, '', 0, 2, True)```
 
 ### Visualization
-The sixth argument is a flag for toggling visualization. Leave as true to get a figure of the cross field. Tools are available online for computing streamlines of the cross field or finding singular locations. 
+The sixth argument is a flag for toggling visualization. Leave as true to get a figure of the cross field. Tools are available online for computing more detailed visualizations such as streamlines of the cross field or finding singular locations. 
 (https://github.com/avaxman/Directional/blob/master/docs/tutorial.md)
