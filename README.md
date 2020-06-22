@@ -1,5 +1,7 @@
 # Crease Aligned Cross Fields
 https://github.com/pzpzpzp1/CreaseAlignedCrossFields.git
+[Fast forward](https://www.youtube.com/watch?v=M28EMpBRtnA)
+[Extra results](https://drive.google.com/file/d/1heg0i8wXiyBT-Zx9XVPOsEuLMNF4WuGM/view?usp=sharing)
 
 ## Introduction
 This code includes algorithms for computing crease-aligned cross fields on triangle meshes:
@@ -26,3 +28,5 @@ The following command computes a cross field on the triangle mesh whose vertices
 ### Visualization
 The sixth argument is a flag for toggling visualization. Leave as true to get a figure of the cross field. Tools are available online for computing more detailed visualizations such as streamlines of the cross field or finding singular locations. 
 (https://github.com/avaxman/Directional/blob/master/docs/tutorial.md)
+
+
