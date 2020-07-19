@@ -1,4 +1,5 @@
 # Crease Aligned Cross Fields
+- [Talk](https://www.youtube.com/watch?v=a6Cv0tZulv4)
 - [Fast forward](https://www.youtube.com/watch?v=M28EMpBRtnA)
 - [Extra results](https://drive.google.com/file/d/1heg0i8wXiyBT-Zx9XVPOsEuLMNF4WuGM/view?usp=sharing)
 
